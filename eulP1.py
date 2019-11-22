@@ -4,4 +4,5 @@
 #because no initial start value is given sum() will begin at 0
 
 a = sum(b for b in range(1000) if b % 3 == 0 or b % 5 == 0)
-print (a)
+print (f"the sum of all numbers under 1000 which are divisble by 3 or 5 is {a}")
+    
